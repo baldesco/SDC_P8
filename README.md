@@ -111,7 +111,7 @@ if (fabs(angle) > 8.0){
 }
 ```
 
-Both outputs of the program (sterring angle and throttle) are cliped before passing them to the simulator, so they don't exceed some upper and lower limits.
+Both outputs of the program (steering angle and throttle) are cliped before passing them to the simulator, so they don't exceed some upper and lower limits.
 
 * Finally, introducing these changes in the car's speed made it necessary to do some final tuning on the PID parameters. The final parameters chosen were:
 
